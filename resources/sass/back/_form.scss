@@ -1,0 +1,94 @@
+.floating-row{
+    position:fixed;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgba(0,0,0,0.1);
+    .btn-submit{
+        float: right;
+    }
+}
+.backform{
+    padding-bottom: 60px;
+}
+.img-preview-container{
+    display: block;
+    .img-preview{
+        height: 120px;
+    }
+    .img-preview-btn{
+        text-decoration: none;
+        color: #e3342f !important;
+        display: block;
+    }
+}
+
+.dropzones-container{
+    margin-top:-60px;
+    padding-bottom:60px;
+    .dropzone-container{
+        cursor: pointer;
+        min-height: 100px;
+        border:1px dashed #000000 ;
+        width: 100%;
+        display: block;
+        .dz-success-mark{
+            display:none;
+        }
+        .dz-error-mark{
+            display:none;
+        }
+        .dz-filename{
+            display:none;
+        }
+        .dz-size{
+            display: none;
+        }
+        .dz-remove{
+            text-decoration:none;
+            color:#e3342f !important;
+        }
+        .dz-image{
+            display: inline;
+        }
+        .dz-message{
+            text-align: center;
+            margin-top: 10px;
+        }
+    }
+}
+.back-btn{
+    float:left;
+    padding-top: 7px;
+    a{
+        text-decoration: none;
+        color:#333333;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+.new-btn{
+    float:right;
+    padding-top: 7px;
+    a{
+        text-decoration: none;
+        color:#333333;
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.checkbox{
+    display: inline-block;
+    width: auto;
+    height: 14px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
